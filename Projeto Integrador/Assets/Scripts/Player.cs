@@ -67,6 +67,12 @@ public class Player : MonoBehaviour
             isJump = false;
             anim.SetBool("jump",false);
         }
+
+        if (collision.gameObject.layer == 9)
+        {
+            Player_controller.instance.gameOver.SetActive(true);
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)

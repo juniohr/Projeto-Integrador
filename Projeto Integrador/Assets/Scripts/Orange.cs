@@ -8,7 +8,7 @@ public class Orange : MonoBehaviour
     public SpriteRenderer spriteR;
     public CircleCollider2D cirCol;
 
-    private void Start()
+    public void Start()
     {
         obj.SetActive(false);
         spriteR = GetComponent<SpriteRenderer>();
@@ -22,6 +22,8 @@ public class Orange : MonoBehaviour
             spriteR.enabled = false;
             cirCol.enabled = false;
             obj.SetActive (true);
+            Player_controller.instance.totalScore += 10;
+            Player_controller.instance.Score();
             Destroy(gameObject, 0.3f);
         }
     }
