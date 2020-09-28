@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private bool doubleJump = false;
     private Rigidbody2D rigid;
     private Animator anim;
-    // Start is called before the first frame update
+    
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -65,7 +65,7 @@ public class Player : MonoBehaviour
        if(collision.gameObject.layer == 8)
         {
             isJump = false;
-            anim.SetBool("jump",false);
+            anim.SetBool("jump", false);
         }
 
         if (collision.gameObject.layer == 9)

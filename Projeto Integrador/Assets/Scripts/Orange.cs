@@ -23,7 +23,6 @@ public class Orange : MonoBehaviour
             cirCol.enabled = false;
             obj.SetActive (true);
             Player_controller.instance.totalScore += 10;
-            Player_controller.instance.Score();
             Destroy(gameObject, 0.3f);
         }
     }
