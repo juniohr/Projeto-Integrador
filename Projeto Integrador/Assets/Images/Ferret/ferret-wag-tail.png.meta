@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 4de7477db05486a44bb776887f3b1552
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3856266975607526599
+    second: ferret-wag-tail_0
+  - first:
+      213: 4088104326388265656
+    second: ferret-wag-tail_1
+  - first:
+      213: -5691675181628674806
+    second: ferret-wag-tail_2
+  - first:
+      213: 2426694211002947666
+    second: ferret-wag-tail_3
+  - first:
+      213: 2626877874318592364
+    second: ferret-wag-tail_4
+  - first:
+      213: 8341133861580016290
+    second: ferret-wag-tail_5
+  - first:
+      213: 5535560707211752091
+    second: ferret-wag-tail_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +62,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +94,168 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ferret-wag-tail_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 120
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c418280266348530800000000000000
+      internalID: 3856266975607526599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ferret-wag-tail_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 9
+        width: 112
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b23c13a93ddbb830800000000000000
+      internalID: 4088104326388265656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ferret-wag-tail_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 9
+        width: 110
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dad1ef39b1301b0800000000000000
+      internalID: -5691675181628674806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ferret-wag-tail_3
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 9
+        width: 110
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258d35917895da120800000000000000
+      internalID: 2426694211002947666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ferret-wag-tail_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 9
+        width: 120
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69c717428b847420800000000000000
+      internalID: 2626877874318592364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ferret-wag-tail_5
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 9
+        width: 119
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa857bcd09a1c370800000000000000
+      internalID: 8341133861580016290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ferret-wag-tail_6
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 12
+        width: 120
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9277f1722342dc40800000000000000
+      internalID: 5535560707211752091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
