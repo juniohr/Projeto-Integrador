@@ -337,6 +337,10 @@ PrefabInstance:
       propertyPath: players.Array.data[1]
       value: 
       objectReference: {fileID: 5745551527088438672, guid: a5b526240328f5b4caeb0ad787bc5fa5, type: 3}
+    - target: {fileID: 779163657088546323, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
+      propertyPath: players.Array.data[0]
+      value: 
+      objectReference: {fileID: 5043671375847164780, guid: bb276b4adfa663241adb3a46c97b1da6, type: 3}
     - target: {fileID: 779163657088546324, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
       propertyPath: m_Name
       value: Player Controller

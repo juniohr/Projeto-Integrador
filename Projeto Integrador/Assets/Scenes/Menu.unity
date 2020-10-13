@@ -331,7 +331,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Frog
+  m_Text: Ferret
 --- !u!222 &401596756
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -839,6 +839,10 @@ PrefabInstance:
       propertyPath: players.Array.data[1]
       value: 
       objectReference: {fileID: 5745551527088438672, guid: a5b526240328f5b4caeb0ad787bc5fa5, type: 3}
+    - target: {fileID: 779163657088546323, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
+      propertyPath: players.Array.data[0]
+      value: 
+      objectReference: {fileID: 5043671375847164780, guid: bb276b4adfa663241adb3a46c97b1da6, type: 3}
     - target: {fileID: 779163657088546324, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
       propertyPath: m_Name
       value: Player Controller
@@ -2765,7 +2769,7 @@ GameObject:
   - component: {fileID: 1708591341}
   - component: {fileID: 1708591340}
   m_Layer: 5
-  m_Name: Frog
+  m_Name: Ferret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2788,8 +2792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -272, y: 35.415}
-  m_SizeDelta: {x: 25.147606, y: 27.169342}
+  m_AnchoredPosition: {x: -303.17, y: 19.096}
+  m_SizeDelta: {x: 32.105843, y: 38.191757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1708591340
 Animator:
@@ -2801,7 +2805,7 @@ Animator:
   m_GameObject: {fileID: 1708591338}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: edc76ef15686d3342ac98e9d7005e8aa, type: 2}
+  m_Controller: {fileID: 9100000, guid: 668eb967b2f2f684c956848a63294591, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2830,9 +2834,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
+  m_Sprite: {fileID: 515953596556277659, guid: b038b4c4f0ff75441899c2f78bb9e638, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -9566,7 +9570,7 @@ RectTransform:
   m_GameObject: {fileID: 1911425192}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13423297, y: 0.16462135, z: 0.20281866}
+  m_LocalScale: {x: 0.13423297, y: 0.16462132, z: 0.20281866}
   m_Children:
   - {fileID: 401596754}
   m_Father: {fileID: 1708591339}
@@ -9574,7 +9578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000091552734, y: -20.975212}
+  m_AnchoredPosition: {x: 4.1841354, y: -18.288755}
   m_SizeDelta: {x: 121.50577, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911425194
@@ -9622,7 +9626,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 519420030}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Frog
+        m_MethodName: Ferret
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

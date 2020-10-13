@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour
         PlayerPrefs.DeleteKey("iniciar");
     }
 
-    public void Frog()
+    public void Ferret()
     {
         Player_controller.instance.i = 0;
         PlayerPrefs.SetInt("char", Player_controller.instance.i);
