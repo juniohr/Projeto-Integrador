@@ -10,9 +10,14 @@ public class Player : MonoBehaviour
     private bool doubleJump = false;
     private Rigidbody2D rigid;
     private Animator anim;
+
+    [SerializeField]
+    private LayerMask layer;
+    public static Player player;
     
     void Start()
     {
+        player = this;
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -73,6 +78,7 @@ public class Player : MonoBehaviour
             Player_controller.instance.gameOver.SetActive(true);
             Destroy(gameObject);
         }
+
     }
 
     private void OnCollisionExit2D(Collision2D collision)
