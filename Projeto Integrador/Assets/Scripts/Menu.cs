@@ -5,12 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public GameObject [] menus;
     void Awake()
     {
         PlayerPrefs.DeleteKey("char");
         PlayerPrefs.DeleteKey("iniciar");
     }
 
+    void Start()
+    {
+        menus[0].SetActive(false);
+        menus[2].SetActive(false);
+        menus[3].SetActive(false);
+    }
     public void Ferret()
     {
         Player_controller.instance.i = 0;
@@ -27,5 +34,37 @@ public class Menu : MonoBehaviour
         Player_controller.instance.inicio = "inicio";
         PlayerPrefs.SetString("iniciar", Player_controller.instance.inicio);
         SceneManager.LoadScene("Cena");
+    }
+
+    public void StartGame()
+    {
+        menus[1].SetActive(false);
+        menus[0].SetActive(true);
+        menus[3].SetActive(true);
+
+    }
+
+    public void Credits()
+    {
+        menus[1].SetActive(false);
+        menus[2].SetActive(true);
+        menus[3].SetActive(true);
+    }
+
+    public void Back()
+    {
+        if (menus[0].activeInHierarchy)
+        {
+            menus[1].SetActive(true);
+            menus[0].SetActive(false);
+            menus[3].SetActive(false);
+        }
+
+        else
+        {
+            menus[1].SetActive(true);
+            menus[2].SetActive(false);
+            menus[3].SetActive(false);
+        }
     }
 }
