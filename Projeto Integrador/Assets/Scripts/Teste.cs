@@ -5,16 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class Teste : MonoBehaviour
 {
+    public GameObject boardUI;
     private void Awake()
     {
         PlayerPrefs.DeleteKey("pontuacao");
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            PlayerPrefs.SetInt("pontuacao",Player_controller.instance.totalScore);
-            SceneManager.LoadScene("Cena2");
+
+            boardUI.SetActive(true);
+            PlayerPrefs.SetInt("chaves",Player_controller.instance.keyB);
+            PlayerPrefs.SetInt("pontuacao", Player_controller.instance.totalScore);
+            Invoke("SwitchScene", 3);
+            
         }
+    }
+
+    public void SwitchScene()
+    {
+        SceneManager.LoadScene("Cena2");
     }
 }

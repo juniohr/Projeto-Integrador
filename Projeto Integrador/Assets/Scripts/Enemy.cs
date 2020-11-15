@@ -6,10 +6,10 @@ public  class Enemy : MonoBehaviour
 {
     public int velocity = 1;
     public LayerMask layer;
-    public static Enemy enemy;
+   //public static Enemy enemy;
     void Start()
     {
-        enemy = this;
+       // enemy = this;
     }
 
     void FixedUpdate()

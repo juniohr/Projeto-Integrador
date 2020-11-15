@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("char");
         PlayerPrefs.DeleteKey("iniciar");
+        PlayerPrefs.DeleteKey("chaves");
     }
 
     void Start()
@@ -17,6 +18,24 @@ public class Menu : MonoBehaviour
         menus[0].SetActive(false);
         menus[2].SetActive(false);
         menus[3].SetActive(false);
+    }
+
+    void Update()
+    {
+        if (menus[0].activeInHierarchy && Input.GetKeyDown(KeyCode.Escape))
+        {
+            menus[1].SetActive(true);
+            menus[0].SetActive(false);
+            menus[3].SetActive(false);
+        }
+        else if (menus[2].activeInHierarchy && Input.GetKeyDown(KeyCode.Escape))
+        {
+            menus[1].SetActive(true);
+            menus[2].SetActive(false);
+            menus[3].SetActive(false);
+        }
+
+      
     }
     public void Ferret()
     {

@@ -47,8 +47,13 @@ MonoBehaviour:
   totalScore: 0
   i: 0
   gameOver: {fileID: 0}
+  startGame: {fileID: 0}
   players:
-  - {fileID: 4118775130299480836, guid: a6ccaf495ff48f4498deda3ebd9c0cf2, type: 3}
-  - {fileID: 4118775130299480836, guid: a6ccaf495ff48f4498deda3ebd9c0cf2, type: 3}
-  - {fileID: 4118775130299480836, guid: a6ccaf495ff48f4498deda3ebd9c0cf2, type: 3}
+  - {fileID: 5043671375847164780, guid: bb276b4adfa663241adb3a46c97b1da6, type: 3}
+  - {fileID: 5745551527088438672, guid: a5b526240328f5b4caeb0ad787bc5fa5, type: 3}
+  keys:
+  - {fileID: 0}
   inicio: 
+  keyB: 0
+  keyO: 0
+  keyG: 0

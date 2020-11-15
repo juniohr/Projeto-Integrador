@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 7283536467554547864}
+  inimigo: {fileID: 0}
 --- !u!1 &7283536467554547864
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +147,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2352121772448993529, guid: 43b0ad33265e3c6489eea76d6f6bc3e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -236,6 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7002d8138fd21cc45ada7ff38699433a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocity: 1
   layer:
     serializedVersion: 2
     m_Bits: 256

@@ -117,9 +117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d58424563419242864f496de9ea706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
   speed: 3
-  jumpForce: 10
+  jumpForce: 13
   layer:
     serializedVersion: 2
     m_Bits: 1024
@@ -136,7 +135,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.19103676, y: -0.09334749}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -147,7 +146,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 0.68}
+  m_Size: {x: 0.8179265, y: 0.4933051}
   m_EdgeRadius: 0
 --- !u!50 &4598051548392202828
 Rigidbody2D:

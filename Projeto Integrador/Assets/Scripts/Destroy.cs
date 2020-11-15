@@ -5,9 +5,11 @@ using UnityEngine;
 public class Destroy : MonoBehaviour
 {
     public GameObject enemy;
+    public Enemy inimigo;
+
     void Start()
     {
-        
+        inimigo = GetComponentInParent<Enemy>();
     }
 
     void Update()
@@ -18,9 +20,9 @@ public class Destroy : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Enemy.enemy.velocity = 0;
+            inimigo.velocity = 0;
             Player.player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Player.player.jumpForce);
-            Enemy.enemy.GetComponent<Animator>().SetBool("died", true);
+            inimigo.GetComponent<Animator>().SetBool("died", true);
             Destroy(enemy);
         }
     }

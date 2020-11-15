@@ -341,6 +341,10 @@ PrefabInstance:
       propertyPath: players.Array.data[0]
       value: 
       objectReference: {fileID: 5043671375847164780, guid: bb276b4adfa663241adb3a46c97b1da6, type: 3}
+    - target: {fileID: 779163657088546323, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
+      propertyPath: keys.Array.data[0]
+      value: 
+      objectReference: {fileID: 484935330878030401}
     - target: {fileID: 779163657088546324, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
       propertyPath: m_Name
       value: Player Controller
@@ -10747,6 +10751,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1201710796, guid: 1477367e202c96b4780404c9c707135c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985750863, guid: 1477367e202c96b4780404c9c707135c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2787836161446716804, guid: 1477367e202c96b4780404c9c707135c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -10841,3 +10853,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1477367e202c96b4780404c9c707135c, type: 3}
+--- !u!1 &484935330878030401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1831022587, guid: 1477367e202c96b4780404c9c707135c, type: 3}
+  m_PrefabInstance: {fileID: 484935330878030400}
+  m_PrefabAsset: {fileID: 0}
