@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: c41c0abd9fd33b14287ca26a468a4cf2
+guid: a9111921f45e06641b580c2e51f9ace6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3102753297617374514
-    second: ground-purple_0
+      213: -5189479616627432
+    second: panel-one_0
   - first:
-      213: 4556110969234896811
-    second: ground-purple_1
-  - first:
-      213: 3069161512562680014
-    second: ground-purple_2
+      213: -8588806338488163495
+    second: panel-one_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +38,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -122,64 +119,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ground-purple_0
+      name: panel-one_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 129
-        height: 128
+        width: 39
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23dc7226fa13f0b20800000000000000
-      internalID: 3102753297617374514
+      spriteID: 81db1ee12309deff0800000000000000
+      internalID: -5189479616627432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground-purple_1
+      name: panel-one_1
       rect:
         serializedVersion: 2
-        x: 137
+        x: 44
         y: 0
-        width: 128
-        height: 128
+        width: 39
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba7b18689ce8a3f30800000000000000
-      internalID: 4556110969234896811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ground-purple_2
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 0
-        width: 129
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec06992722ad79a20800000000000000
-      internalID: 3069161512562680014
+      spriteID: 9532acdf32e6ec880800000000000000
+      internalID: -8588806338488163495
       vertices: []
       indices: 
       edges: []
