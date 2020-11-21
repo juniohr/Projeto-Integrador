@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-guid: 2857c3a93cca0824ab37dcad4bd65f93
+guid: 7bdb8357bed8fc645854116cdc8232f3
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7347392648757341070
-    second: button-yellow_0
-  - first:
-      213: 2783604193875743516
-    second: button-yellow_1
-  - first:
-      213: 788103145957575829
-    second: button-yellow_2
-  - first:
-      213: 7401626355646678433
-    second: button-yellow_3
-  - first:
-      213: -2483951032671378867
-    second: button-yellow_4
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,12 +41,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,112 +111,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: button-yellow_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 26
-        height: 30
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8b6f769fae27f560800000000000000
-      internalID: 7347392648757341070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: button-yellow_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 20
-        height: 30
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c135043244951a620800000000000000
-      internalID: 2783604193875743516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: button-yellow_2
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 0
-        width: 22
-        height: 30
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59c4b2db2a7efea00800000000000000
-      internalID: 788103145957575829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: button-yellow_3
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 0
-        width: 20
-        height: 30
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a54d7874fbd7b660800000000000000
-      internalID: 7401626355646678433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: button-yellow_4
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 0
-        width: 26
-        height: 30
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d42682242bb378dd0800000000000000
-      internalID: -2483951032671378867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
