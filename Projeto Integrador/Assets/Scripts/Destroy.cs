@@ -22,7 +22,7 @@ public class Destroy : MonoBehaviour
         {
             inimigo.velocity = 0;
             Player.player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Player.player.jumpForce);
-            inimigo.GetComponent<Animator>().SetBool("died", true);
+            //inimigo.GetComponent<Animator>().SetBool("died", true);
             Destroy(enemy);
         }
     }

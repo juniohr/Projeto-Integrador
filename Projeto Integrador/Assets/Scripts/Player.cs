@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       if(collision.gameObject.layer == 8)
+       if(collision.gameObject.layer == 8 || collision.gameObject.CompareTag("Platform"))
         {
             isJump = false;
             anim.SetBool("jump", false);
@@ -78,15 +78,22 @@ public class Player : MonoBehaviour
             Player_controller.instance.gameOver.SetActive(true);
             Destroy(gameObject);
         }
-
+        if (collision.gameObject.CompareTag("Platform"))
+        {
+            transform.parent = collision.transform;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 8 || collision.gameObject.CompareTag("Platform"))
         {
             isJump = true;
             anim.SetBool("jump",true);
+        }
+        if (collision.gameObject.CompareTag("Platform"))
+        {
+            transform.parent = null;
         }
     }
 }

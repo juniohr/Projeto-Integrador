@@ -17,7 +17,8 @@ public class Player_controller : MonoBehaviour
     void Start()
     {
         instance = this;
-        keyB = PlayerPrefs.GetInt("chaves");
+        keyB = PlayerPrefs.GetInt("chaveB");
+        keyG = PlayerPrefs.GetInt("chaveG");
         totalScore = PlayerPrefs.GetInt("pontuacao");
         i = PlayerPrefs.GetInt("char");
         inicio = PlayerPrefs.GetString("iniciar");
@@ -41,6 +42,17 @@ public class Player_controller : MonoBehaviour
         {
             keys[0].SetActive(true);
         }
+
+        if (keyG == 1)
+        {
+            keys[1].SetActive(true);
+        }
+
+        if (keyO == 1)
+        {
+            keys[2].SetActive(true);
+        }
+
         Score();
     }
     public void Score()
@@ -50,6 +62,14 @@ public class Player_controller : MonoBehaviour
 
     public void Gameover()
     {
+        if (Lever.lever.fase == "fase1")
+        {
+            PlayerPrefs.DeleteKey("chaveB");   
+        }
+        else if (Lever.lever.fase == "fase2")
+        {
+            PlayerPrefs.DeleteKey("chaveG");
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
   

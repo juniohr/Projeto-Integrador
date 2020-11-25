@@ -10,7 +10,8 @@ public class Menu : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("char");
         PlayerPrefs.DeleteKey("iniciar");
-        PlayerPrefs.DeleteKey("chaves");
+        PlayerPrefs.DeleteKey("chaveB");
+        PlayerPrefs.DeleteKey("chaveG");
     }
 
     void Start()
