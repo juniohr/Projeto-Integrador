@@ -6,20 +6,26 @@ using UnityEngine.SceneManagement;
 
 public class Player_controller : MonoBehaviour
 {
-    public Text txt;
-    public int totalScore , i;
+    public int i;
     public static Player_controller instance;
     public GameObject gameOver, startGame;
     public GameObject[] players;
     public GameObject[] keys;
     public string inicio;
     public int keyB, keyO, keyG;
+
+    Vector2 velocity;
+    public float smoothTimeX, smoothTimeY;
+    public bool bounds;
+    public GameObject player;
+    public Vector3 minCameraPos, maxCameraPos;
+
+    private void Awake()
+    {
+       
+    }
     void Start()
     {
-        instance = this;
-        keyB = PlayerPrefs.GetInt("chaveB");
-        keyG = PlayerPrefs.GetInt("chaveG");
-        totalScore = PlayerPrefs.GetInt("pontuacao");
         i = PlayerPrefs.GetInt("char");
         inicio = PlayerPrefs.GetString("iniciar");
 
@@ -34,10 +40,28 @@ public class Player_controller : MonoBehaviour
                 Instantiate(players[1], startGame.transform.position, Quaternion.identity);
             }
         }
+        instance = this;
+        keyB = PlayerPrefs.GetInt("chaveB");
+        keyG = PlayerPrefs.GetInt("chaveG");
+        player = GameObject.FindGameObjectWithTag("Player");
+        
 
     }
     private void FixedUpdate()
     {
+        float posX = Mathf.SmoothDamp(Camera.main.transform.position.x, player.transform.position.x, ref velocity.x, smoothTimeX);
+        float posY = Mathf.SmoothDamp(Camera.main.transform.position.y, player.transform.position.y, ref velocity.y, smoothTimeY);
+        Camera.main.transform.position = new Vector3(posX, posY, Camera.main.transform.position.z);
+
+        if (bounds)
+        {
+            Camera.main.transform.position = new Vector3(Mathf.Clamp(Camera.main.transform.position.x, minCameraPos.x, maxCameraPos.x),
+            Mathf.Clamp(Camera.main.transform.position.y, minCameraPos.y, maxCameraPos.y),
+            Mathf.Clamp(Camera.main.transform.position.z, minCameraPos.z, maxCameraPos.z));
+        }
+
+
+
         if (keyB == 1)
         {
             keys[0].SetActive(true);
@@ -52,12 +76,6 @@ public class Player_controller : MonoBehaviour
         {
             keys[2].SetActive(true);
         }
-
-        Score();
-    }
-    public void Score()
-    {
-        txt.text = totalScore.ToString();
     }
 
     public void Gameover()

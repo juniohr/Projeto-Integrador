@@ -7,11 +7,8 @@ public class Teste : MonoBehaviour
 {
     public GameObject boardUI;
     public GameObject[] keys;
+    public GameObject endGame;
     public string cenas;
-    private void Awake()
-    {
-        PlayerPrefs.DeleteKey("pontuacao");
-    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -38,10 +35,19 @@ public class Teste : MonoBehaviour
 
             PlayerPrefs.SetInt("chaveB",Player_controller.instance.keyB);
             PlayerPrefs.SetInt("chaveG", Player_controller.instance.keyG);
-            PlayerPrefs.SetInt("pontuacao", Player_controller.instance.totalScore);
-            Invoke("SwitchScene", 3);
+
+            if (cenas == "Cena2" || cenas == "Cena3")
+            {
+                Invoke("SwitchScene", 3);
+            }
+            Invoke("Endgame", 5);
             
         }
+    }
+
+    public void Endgame()
+    {
+        endGame.SetActive(true);
     }
 
     public void SwitchScene()

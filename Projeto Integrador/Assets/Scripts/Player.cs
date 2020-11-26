@@ -76,7 +76,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.layer == 9)
         {
             Player_controller.instance.gameOver.SetActive(true);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
         if (collision.gameObject.CompareTag("Platform"))
         {

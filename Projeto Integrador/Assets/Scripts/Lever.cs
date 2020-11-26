@@ -10,6 +10,7 @@ public class Lever : MonoBehaviour
     public static Lever lever;
     public byte button;
     public string fase;
+    public GameObject panel;
     void Start()
     {
         lever = this;
@@ -20,7 +21,14 @@ public class Lever : MonoBehaviour
 
     void Update()
     {
-        
+        if (fase == "fase2" && button == 2)
+        {
+            anim[3].SetBool("on",true);
+        }
+        if (fase == "fase3" && button == 4)
+        {
+            anim[3].SetBool("on",true);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -72,7 +80,7 @@ public class Lever : MonoBehaviour
             anim[1].SetBool("open_close", true);
             anim[2].SetBool("open_close", false);
         }
-        else if (fase == "fase3" && button == 2)
+        else if (fase == "fase3" && button == 4)
         {
             col[1].enabled = true;
             col[0].enabled = false;
@@ -83,8 +91,12 @@ public class Lever : MonoBehaviour
         }
         else
         {
-            Debug.Log("Falta Energia");
+            panel.SetActive(true);
+            Invoke("PanelOn",2);
         }
     }
-
+    void PanelOn()
+    {
+        panel.SetActive(false);
+    }
 }
