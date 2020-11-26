@@ -1,0 +1,1354 @@
+fileFormatVersion: 2
+guid: 24767a107cd52d34ab2ae27b71468b1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2801495810016892957
+    second: blue-keys-idle_0
+  - first:
+      213: 70402081827365287
+    second: blue-keys-idle_1
+  - first:
+      213: 6497748081253018725
+    second: blue-keys-idle_2
+  - first:
+      213: 2682429691027706104
+    second: blue-keys-idle_3
+  - first:
+      213: 925562010402982715
+    second: blue-keys-idle_4
+  - first:
+      213: -3576728398278109827
+    second: blue-keys-idle_5
+  - first:
+      213: 4121274024309097865
+    second: blue-keys-idle_6
+  - first:
+      213: -8408257596175859040
+    second: blue-keys-idle_7
+  - first:
+      213: 75973798999968889
+    second: blue-keys-idle_8
+  - first:
+      213: 6151600553589404750
+    second: blue-keys-idle_9
+  - first:
+      213: -2994025093644585802
+    second: blue-keys-idle_15
+  - first:
+      213: -2670572312236496745
+    second: blue-keys-idle_16
+  - first:
+      213: 5155804165953719653
+    second: blue-keys-idle_10
+  - first:
+      213: 8150671171257188896
+    second: blue-keys-idle_11
+  - first:
+      213: -735717827181511733
+    second: blue-keys-idle_12
+  - first:
+      213: 3076136726302304738
+    second: blue-keys-idle_13
+  - first:
+      213: 1005683115034992972
+    second: blue-keys-idle_14
+  - first:
+      213: 3953669084113260633
+    second: orange-keys-idle_0
+  - first:
+      213: -5286731760605452160
+    second: orange-keys-idle_1
+  - first:
+      213: 2404745251420792408
+    second: orange-keys-idle_2
+  - first:
+      213: -5702283461822937644
+    second: orange-keys-idle_3
+  - first:
+      213: -232793958145690435
+    second: orange-keys-idle_4
+  - first:
+      213: 61360340167978815
+    second: orange-keys-idle_5
+  - first:
+      213: 841261338527964834
+    second: orange-keys-idle_6
+  - first:
+      213: 403432442430142603
+    second: orange-keys-idle_7
+  - first:
+      213: -6638690442361381053
+    second: orange-keys-idle_8
+  - first:
+      213: 8276699397840668704
+    second: orange-keys-idle_9
+  - first:
+      213: 6732611757453372184
+    second: orange-keys-idle_15
+  - first:
+      213: -8448370177720976661
+    second: orange-keys-idle_16
+  - first:
+      213: 3154358489111493192
+    second: orange-keys-idle_10
+  - first:
+      213: -2107119848876811256
+    second: orange-keys-idle_11
+  - first:
+      213: -2585997865828906988
+    second: orange-keys-idle_12
+  - first:
+      213: -555127906395886766
+    second: orange-keys-idle_13
+  - first:
+      213: 50996963191245177
+    second: orange-keys-idle_14
+  - first:
+      213: -4203031793395544092
+    second: green-keys-idle_0
+  - first:
+      213: -9200401753321521428
+    second: green-keys-idle_1
+  - first:
+      213: -7412989097453784150
+    second: green-keys-idle_2
+  - first:
+      213: -2308219474021556485
+    second: green-keys-idle_3
+  - first:
+      213: -7086769860605279458
+    second: green-keys-idle_4
+  - first:
+      213: 1790901960945709458
+    second: green-keys-idle_5
+  - first:
+      213: -8072402650451330402
+    second: green-keys-idle_6
+  - first:
+      213: 6377583882574310855
+    second: green-keys-idle_7
+  - first:
+      213: -8238188383834634794
+    second: green-keys-idle_8
+  - first:
+      213: 8804327346716032876
+    second: green-keys-idle_9
+  - first:
+      213: 4373141533593759949
+    second: green-keys-idle_15
+  - first:
+      213: -3951086963537399637
+    second: green-keys-idle_16
+  - first:
+      213: 4058594390116794922
+    second: green-keys-idle_10
+  - first:
+      213: -1565532264458115459
+    second: green-keys-idle_11
+  - first:
+      213: 7824992449126915986
+    second: green-keys-idle_12
+  - first:
+      213: -1873046237969160213
+    second: green-keys-idle_13
+  - first:
+      213: 6624690076279038470
+    second: green-keys-idle_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue-keys-idle_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 374
+        width: 87
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7a23c57661f19d0800000000000000
+      internalID: -2801495810016892957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 374
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1a4c6025e1af000800000000000000
+      internalID: 70402081827365287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 374
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cef0f0473ac2a50800000000000000
+      internalID: 6497748081253018725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 374
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0daa48797e93520800000000000000
+      internalID: 2682429691027706104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 374
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b8aaf9eb148dc00800000000000000
+      internalID: 925562010402982715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75d49ad878ec5ec0800000000000000
+      internalID: -3576728398278109827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_6
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9850df0c3e4b13930800000000000000
+      internalID: 4121274024309097865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a245ffd34edf4b80800000000000000
+      internalID: -8408257596175859040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_8
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c41a584c9ed0100800000000000000
+      internalID: 75973798999968889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44fac46c10ee5550800000000000000
+      internalID: 6151600553589404750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 374
+        width: 87
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b475b45a061376d0800000000000000
+      internalID: -2994025093644585802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_16
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 374
+        width: 87
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798662e91a830fad0800000000000000
+      internalID: -2670572312236496745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_10
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d862382981d8740800000000000000
+      internalID: 5155804165953719653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_11
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224dc30f300d1170800000000000000
+      internalID: 8150671171257188896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 374
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb7cefb8843ac5f0800000000000000
+      internalID: -735717827181511733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 374
+        width: 87
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e928c3fd02a0ba20800000000000000
+      internalID: 3076136726302304738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-keys-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 374
+        width: 87
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41e44cf677e4fd00800000000000000
+      internalID: 1005683115034992972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950d306a5114ed630800000000000000
+      internalID: 3953669084113260633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 187
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088265a5971c1a6b0800000000000000
+      internalID: -5286731760605452160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 187
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566e36b01f5f5120800000000000000
+      internalID: 2404745251420792408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 187
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d58579476b6dd0b0800000000000000
+      internalID: -5702283461822937644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 187
+        width: 88
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db47ed2e023f4ccf0800000000000000
+      internalID: -232793958145690435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f620f77eef9d000800000000000000
+      internalID: 61360340167978815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_6
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae9a3eeab2ccab00800000000000000
+      internalID: 841261338527964834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88baed3ba7499500800000000000000
+      internalID: 403432442430142603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_8
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd4494732aed3a0800000000000000
+      internalID: -6638690442361381053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0288bf0204ebcd270800000000000000
+      internalID: 8276699397840668704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b60a5f8ba0f6d50800000000000000
+      internalID: 6732611757453372184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_16
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaffe1b51c51ca80800000000000000
+      internalID: -8448370177720976661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_10
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a7ab5555886cb20800000000000000
+      internalID: 3154358489111493192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_11
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cd58459a102c2e0800000000000000
+      internalID: -2107119848876811256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418895964a0bc1cd0800000000000000
+      internalID: -2585997865828906988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bed5e3c1acb48f0800000000000000
+      internalID: -555127906395886766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-keys-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 187
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97943a3c77d25b000800000000000000
+      internalID: 50996963191245177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 86
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef4cfe3ad4dba5c0800000000000000
+      internalID: -4203031793395544092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3
+        width: 92
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb366e95b915080800000000000000
+      internalID: -9200401753321521428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa37c6a01b5cf1990800000000000000
+      internalID: -7412989097453784150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe5e4b2e9e87ffd0800000000000000
+      internalID: -2308219474021556485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3
+        width: 90
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138dadeb5cb6ad90800000000000000
+      internalID: -7086769860605279458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29138b948df8ad810800000000000000
+      internalID: 1790901960945709458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_6
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 3
+        width: 86
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a3def0f8019ff80800000000000000
+      internalID: -8072402650451330402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 3
+        width: 89
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd291650cab18850800000000000000
+      internalID: 6377583882574310855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_8
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3
+        width: 89
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d589cc00531cad80800000000000000
+      internalID: -8238188383834634794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_9
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f344313114f2a70800000000000000
+      internalID: 8804327346716032876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0fc5e0e0580bc30800000000000000
+      internalID: 4373141533593759949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_16
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 3
+        width: 93
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba03da5275bea29c0800000000000000
+      internalID: -3951086963537399637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_10
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a220e4e2816035830800000000000000
+      internalID: 4058594390116794922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_11
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3
+        width: 91
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76af8433bc164ae0800000000000000
+      internalID: -1565532264458115459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_12
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 3
+        width: 89
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fd2548c25f79c60800000000000000
+      internalID: 7824992449126915986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 3
+        width: 90
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be767f1de5a9106e0800000000000000
+      internalID: -1873046237969160213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-keys-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 3
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602eaa77680afeb50800000000000000
+      internalID: 6624690076279038470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
