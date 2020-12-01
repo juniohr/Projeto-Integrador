@@ -47423,6 +47423,10 @@ PrefabInstance:
       propertyPath: keys.Array.data[2]
       value: 
       objectReference: {fileID: 2063856690}
+    - target: {fileID: 779163657088546323, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
+      propertyPath: players.Array.data[1]
+      value: 
+      objectReference: {fileID: 595808780737173991, guid: 1e46f46e871fd86478d8fc933a374076, type: 3}
     - target: {fileID: 779163657088546324, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
       propertyPath: m_Name
       value: Player Controller

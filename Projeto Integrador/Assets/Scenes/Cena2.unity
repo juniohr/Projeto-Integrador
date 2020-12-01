@@ -480,7 +480,7 @@ PrefabInstance:
     - target: {fileID: 779163657088546323, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
       propertyPath: players.Array.data[1]
       value: 
-      objectReference: {fileID: 5745551527088438672, guid: a5b526240328f5b4caeb0ad787bc5fa5, type: 3}
+      objectReference: {fileID: 595808780737173991, guid: 1e46f46e871fd86478d8fc933a374076, type: 3}
     - target: {fileID: 779163657088546324, guid: b10fc54d60c4dbe4db1f11849c5cd55a, type: 3}
       propertyPath: m_Name
       value: Player Controller
@@ -9451,7 +9451,7 @@ Animator:
   m_GameObject: {fileID: 303879805}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 784c42d7cb0ee6e46ab680a452e50cf5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2b1c472f038d7a340bf6a462883d5011, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
